@@ -6,7 +6,7 @@ from langchain_core.exceptions import OutputParserException
 from dotenv import load_dotenv
 
 load_dotenv()
-
+#class chain
 class Chain:
     def __init__(self):
         self.chat = ChatGroq(temperature=0, groq_api_key="Your Key", model_name="llama-3.3-70b-versatile")
